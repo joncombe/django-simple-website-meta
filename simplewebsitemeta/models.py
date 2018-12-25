@@ -40,7 +40,7 @@ class SimpleWebsiteMetaManager(models.Manager):
                 description=meta['description'],
                 image=meta['image'],
                 title=meta['title'],
-                url=meta['url']
+                canonical_url=meta['url']
             )
             swm.save()
 
